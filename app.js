@@ -51,7 +51,7 @@ function readOutLoud(message) {
     speech.text = finalText;
   }
   speech.volume = 1;
-  speech.rate = 0.4;
+  speech.rate = 0.6;
   speech.pitch = 1;
   window.speechSynthesis.speak(speech);
 }
